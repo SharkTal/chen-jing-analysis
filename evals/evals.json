@@ -1,0 +1,44 @@
+{
+  "skill_name": "chen-jing-analysis",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "用陈经方法论分析一下人民币兑美元汇率未来3个月的走势，现在是7.25，美联储还在维持高利率，中国出口数据最近不错但房地产还是很弱",
+      "expected_output": "A structured 6-layer analysis covering: verified exchange rate data with cross-validation, interest map of PBOC/Fed/exporters/speculators, structural analysis of China's current account surplus vs capital outflows, historical analogy to previous CNY pressure periods, multi-factor table with direction/strength/variability, game theory on PBOC intervention choices, and 3 probabilistic paths with trigger signals",
+      "files": [],
+      "assertions": [
+        "Analysis includes a data verification section that cross-validates the stated exchange rate with at least one other indicator",
+        "Analysis identifies at least 3 distinct actors in the interest map with their face needs and real needs distinguished",
+        "Analysis provides exactly 3 probability paths (Path A, B, C) each with a percentage and trigger condition",
+        "Analysis includes both upside and downside trigger signals for revising the forecast",
+        "Analysis avoids absolute predictions ('will definitely') and uses probabilistic language throughout"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "tesla stock has been dropping a lot lately, from $400 to around $240. i work in finance and my boss is asking me to put together a structured bear/bull case. can you do a thorough analysis using the chen jing framework on where it goes in the next 6 months?",
+      "expected_output": "A full 6-layer analysis: data verification distinguishing real earnings from accounting effects, interest map of Musk/institutional investors/retail/EV competitors, structural analysis using solar-panel-path logic applied to EV market, historical analogy to previous high-multiple growth stock corrections, multi-factor table with rate sensitivity/China exposure/robotaxi timeline/margin compression, game theory on Musk's strategic options, and 3 probabilistic paths with clear trigger signals",
+      "files": [],
+      "assertions": [
+        "Analysis applies the 'solar panel path' logic to evaluate Tesla's competitive position",
+        "Analysis identifies at least 2 structural buyers and 2 cyclical actors in the interest map",
+        "Analysis uses historical analogy with explicit similarity rating and boundary conditions stated",
+        "Analysis produces 3 probability paths with percentages summing to 100%",
+        "Analysis lists specific, observable trigger signals (not vague conditions) for each directional revision"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "我在研究印度市场，想知道印度经济未来两年能不能实现7%+的GDP增速，还是会因为卢比贬值、通货膨胀这些问题增速放缓。帮我做个系统性分析",
+      "expected_output": "A 6-layer analysis: data verification of India's GDP figures and inflation data with cross-validation against PMI/trade data, interest map of Modi government/RBI/foreign investors/domestic manufacturers/middle class, structural analysis comparing India to China's 2000s development path (solar panel path applicability), historical analogy to other emerging market growth stories, multi-factor synthesis of rupee pressure/energy costs/manufacturing FDI/demographic dividend/infrastructure gaps, game theory on RBI's monetary policy options, and probabilistic scenarios for growth outcomes",
+      "files": [],
+      "assertions": [
+        "Analysis explicitly compares India's situation to a historical analogy with a similarity rating",
+        "Analysis identifies and labels actors as either 'structural' or 'cyclical' in the interest map",
+        "Analysis identifies the single 'dominant factor' that if reversed would change the overall outlook",
+        "Analysis uses the dead-end game (死局) framework if all policy options have severe costs",
+        "Analysis concludes with 3 clearly labeled probability paths with percentage estimates"
+      ]
+    }
+  ]
+}
