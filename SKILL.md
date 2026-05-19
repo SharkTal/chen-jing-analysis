@@ -1,6 +1,6 @@
 ---
 name: chen-jing-analysis
-description: Apply Chen Jing's (风云学会陈经) distilled analytical framework to analyze complex topics — economics, geopolitics, markets, and technology. Uses 6 core methods: data verification, interest mapping, probabilistic reasoning, historical analogy, multi-factor synthesis, and game theory perspective.
+description: Apply Chen Jing's (风云学会陈经) distilled analytical framework to analyze complex topics — economics, geopolitics, markets, and technology. Use this skill whenever the user asks to analyze a market, asset price, geopolitical situation, technology competition, or any complex multi-factor problem — even if they don't explicitly say "陈经" or "analysis framework". Also use when the user mentions "蒸馏分析", "用陈经方法", "分析走势", "利益地图", or asks for structured reasoning on economic or geopolitical topics. Uses 6 core methods: data verification (数据打假), interest mapping (利益地图), structural analysis (结构分析), historical analogy (历史类比), multi-factor synthesis (多因素综合), and game theory perspective (博弈视角).
 ---
 
 # 陈经分析法 (Chen Jing Analysis Framework)
@@ -197,8 +197,21 @@ Framework focus: Structural analysis (bottleneck = EUV lithography) + Historical
 
 ---
 
+## Quality Assurance
+
+After completing a full 6-layer analysis draft, read **`references/self-check.md`** and run through:
+1. **Pre-flight checklist** — verify each layer meets quality standards before outputting
+2. **Prediction tracker template** — fill in and save if the analysis contains time-bound predictions
+3. **Post-mortem template** — use when a past prediction is proven wrong
+
+The self-check reference also contains Chen Jing's own error correction case study as a model for how to handle wrong predictions.
+
+---
+
 ## References
 
+- `references/self-check.md` — Output quality checklist, prediction tracker, and post-mortem templates
+- `examples/gold-price-analysis-example.md` — Full worked example: gold 6-month forecast
+- `examples/methodology-reference.md` — Deep methodology reference with all 6 layers explained
 - Original analysis source: 头条号「风云学会陈经」(~169 articles, May 2026)
-- Key articles: DRAM competition analysis, US stock market profit margins, India rupee pressure, AI model competition, gold market analysis
 - Distillation author: Antigravity AI (SharkTal), 2026-05-18
